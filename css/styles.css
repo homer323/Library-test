@@ -3,10 +3,10 @@
   src: url("../fonts/Inter-Regular.ttf");
 }
 
-@font-face {
+/*@font-face {
   font-family: "Inter";
   src: url("../fonts/Inter-Bold.ttf");
-}
+}*/
 
 @font-face {
   font-family: "Forum";
@@ -38,6 +38,7 @@ body {
 
 .page-header {
   background-color: var(--bg-color);
+  height: 90px;
 }
 
 .page-title-wrapper {
@@ -82,12 +83,11 @@ body {
 
 .page-link {
   color: #FFF;
-  font-family: "Forum";
-  font-size: 20px;
-  font-style: normal;
+  font-family: "Inter";
+  font-size: 19px;
   font-weight: 400;
   text-decoration: none;
-  box-sizing: border-box;
+  letter-spacing: 0.6px;
 }
 
 .page-icon-profile {
@@ -96,3 +96,35 @@ body {
   height: 28px;
   flex-shrink: 0;
 }
+/* section welcome start */
+.section-welcome {
+  height: 600px;
+  width: 100%;
+  background: linear-gradient(180deg, #0C0C0E 0%, #0C0C0E 0.01%, rgba(18, 18, 21, 0.10) 100%), url(../images/Welcome-bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.wrapp-welcome-title {
+  position: relative;
+  top: 220px;
+  width: 600px;
+  height: 220px;
+  background: var(--bg-color);
+  flex-shrink: 0;
+}
+
+.welcome-title {
+  margin: 0;
+  padding: 35px 40px;
+  color: var(--bg-body-color);
+  text-align: center;
+  font-family: "Forum";
+  font-size: 40px;
+  font-weight: 400;
+  line-height: 50px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+}
+/* section welcomme end */
+/* section about start */
