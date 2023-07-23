@@ -128,3 +128,44 @@ body {
 }
 /* section welcomme end */
 /* section about start */
+.section-about {
+  /* height: 837px; */
+}
+
+.wrapp-about-title {
+  margin: 20px 667px 0 667px; 
+}
+
+.about-title {
+  margin: 0;
+  color: var(--bg-color);
+  font-family: "Forum";
+  font-size: 40px;
+  font-weight: 400;
+  letter-spacing: 2px;
+  line-height: 40px;
+  text-transform: capitalize;
+}
+
+.about-title::after {
+  margin-top: 20px;
+  margin-left: 30px;
+  content: '';
+  background: var(--bg-color);
+  width: 50px;
+  height: 1px;
+  display: block;
+}
+
+.about-subtitle1 {
+  margin-top: 40px;
+}
+
+.about-subtitle {
+  margin: 0;
+  color: var(--main-text-color);
+  text-align: center;
+  font-family: "Inter";
+  font-size: 20px;
+  font-weight: 400;
+}
